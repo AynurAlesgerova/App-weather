@@ -1,0 +1,121 @@
+section {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  background-image: url("./img/background-photo.jpg");
+  font-family: "Caveat", cursive;
+}
+
+h4 {
+  color: #ccc;
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+.main {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main .info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+}
+.main .info div {
+  color: white;
+  width: 100px;
+}
+.main .info div span {
+  width: 100%;
+  font-size: 50px;
+}
+.main .info .weather-degree {
+  font-size: 50px;
+}
+
+.search {
+  background-color: rgb(75, 75, 161);
+  width: 30%;
+  height: 100%;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search .add {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-top: 30px;
+}
+.search .add form {
+  margin-left: 10px;
+}
+.search .add form input {
+  height: 50px;
+  width: 270px;
+  color: #fff;
+  border: none;
+  background: none;
+  border-bottom: #ccc 1px solid;
+}
+.search .add form input ::-moz-placeholder {
+  color: #ccc;
+}
+.search .add form input :-ms-input-placeholder {
+  color: #ccc;
+}
+.search .add form input ::placeholder {
+  color: #ccc;
+}
+.search .add .btn {
+  width: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+.search .add .btn :hover {
+  background-color: red;
+}
+.search .add .btn svg {
+  width: 30px;
+  height: 30px;
+}
+.search .serach-list {
+  margin: 20px 30px;
+  list-style: none;
+  max-height: 300px;
+  list-style: none;
+  overflow-y: scroll;
+}
+.search .serach-list::-webkit-scrollbar {
+  display: none;
+}
+.search .serach-list li {
+  color: #ccc;
+}
+.search .weather-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  padding: 0 10px;
+  height: 30%;
+}
+.search .weather-details .detail-list {
+  list-style: none;
+}
+.search .weather-details .detail-list li {
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+  margin: 10px 0;
+}/*# sourceMappingURL=style.css.map */
